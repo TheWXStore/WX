@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', monospace;
+  background: linear-gradient(to bottom, #001f4d, #000033);
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00ccff;
+  text-shadow: 2px 2px #000;
+}
+
+.module {
+  background-color: rgba(0, 0, 64, 0.8);
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #00ccff;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #ffcc00;
+  text-shadow: 1px 1px #000;
+}
+
+#current-weather, #forecast-weather {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.weather-card {
+  text-align: center;
+  margin: 10px;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 1em;
+}
